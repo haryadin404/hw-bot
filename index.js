@@ -1,6 +1,6 @@
-// Base MhankBarBar
-// Recode MeHW MODS X Hexagon
-// Lib Baileys
+// [❗] HW MODS WA
+// [❗] MAU REMOD YAH
+// [❗] HAHAHAHAHAHA :)
 const
 {
 WAConnection: _WAConnection,
@@ -73,11 +73,11 @@ const Bfake = fs.readFileSync ('./media/image/fake.jpeg','base64')
 const _win = JSON.parse(fs.readFileSync('./database/tttwin.json'))
 const _lose = JSON.parse(fs.readFileSync('./database/tttlose.json'))
 const scommand = JSON.parse(fs.readFileSync('./database/scommand.json'))
-// SETTING // === // HW MODS WA // === // Hexagon // === // MhankBarBar //
-banChats = true // Self and Public ( HW MODS WA & Hexagon )
-bugc = true // Antibug Gc ( HW MODS WA & MhankBarBar )
+// SETTING // === // HW MODS WA // === // HAIKAL // === // HAIKALMODS //
+banChats = true // Self and Public ( HW MODS WA & HAIKAL )
+bugc = true // Antibug Gc ( HW MODS WA & HAIKALMODS )
 antitrol = true // Antifake Trolli ( HW MODS WA & Ivanzz )
-offline = false // Offline and Online ( Hexagon )
+offline = false // Offline and Online ( HAIKAL )
 multi = true // Multi Prefix ( HW MODS WA )
 antitags = true // Antitag ( HW MODS WA )
 readG = true // Auto Read Group ( HW MODS WA )
@@ -87,7 +87,7 @@ loseawal = 1 // Lose Tictactoe ( HW MODS WA )
 memberwin = 1 // Win ( HW MODS WA )
 memberlose = 1 // Lose ( HW MODS WA )
 pref = '?' // Prefix ( HW MODS WA )
-targetpc = '6285714170944' // Fitnah Target ( Hexagon )
+targetpc = '6285714170944' // Fitnah Target ( HAIKAL )
 owner = '6285714170944' // Numbers Owner ( HW MODS WA )
 ownerNumbers = ["6285714170944@s.whatsapp.net","6285714170944@s.whatsapp.net","6285714170944@s.whatsapp.net"]
 linkcom = ".com" // Anti Link ( HW MODS WA )
@@ -102,10 +102,10 @@ fake = 'HW MODS WA' // Fake Text Reply / Name Bot ( HW MODS WA )
 a = '```' // Font Whatsapp ( HW MODS WA )
 bailver = '3.5.1' // Versi Baileys ( HW MODS WA )
 botver = '1.0.0' // Versi Bot ( HW MODS WA )
-numbernye = '0' // Whatsapp Numbers ( Hexagon )
-waktu = '-' // Waktu Fiturs Online / Offline ( Hexagon )
-alasan = '-' // Alasan Fiturs Online / Offline ( Hexagon )
-ownerNumber = [`${owner}@s.whatsapp.net`] // Numbers Owner ( Hexagon )
+numbernye = '0' // Whatsapp Numbers ( HAIKAL )
+waktu = '-' // Waktu Fiturs Online / Offline ( HAIKAL )
+alasan = '-' // Alasan Fiturs Online / Offline ( HAIKAL )
+ownerNumber = [`${owner}@s.whatsapp.net`] // Numbers Owner ( HAIKAL )
 const X = "❌" // Tictactoe ( HW MODS WA & Lolhuman )
 const O = "⭕️" // Tictactoe ( HW MODS WA & Lolhuman )
 const tunjuk = "👈" // Tictactoe ( HW MODS WA & Lolhuman )
@@ -431,7 +431,7 @@ headerType: 1
 }
 hexa.sendMessage(id, buttonMessage, MessageType.buttonsMessage, options)
 }
-// Nge Eval Terus Gw Sempurnain ( HW MODS WA & Rashid & Ra & Hexagonz )
+// Nge Eval Terus Gw Sempurnain ( HW MODS WA & Rashid & Ra & HAIKALz )
 const sendButImage = async(id, text1, desc1, gam1, but = [], options = {}) => {
 kma = gam1
 mhan = await hexa.prepareMessage(from, kma, image)
@@ -444,7 +444,7 @@ headerType: 4
 }
 hexa.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 }
-// Pahamin dari function sendbutimage terus ini cuman gw bedain type ( HAIKAL & Rashid & Hexagonz )
+// Pahamin dari function sendbutimage terus ini cuman gw bedain type ( HAIKAL & Rashid & HAIKALz )
 const sendButVideo = async(id, text1, desc1, vid1, but = [], options = {}) => {
 kma = vid1
 mhan = await hexa.prepareMessage(from, kma, video)
@@ -1530,11 +1530,11 @@ teksnyee += `\n\n*•> ID :* ${i.id}\n*•> Cmd :* ${i.chats}`
 }
 freply(teksnyee)
 break
-// Stop Jadibot ( HW MODS WA & Vean & Hexagonz )
+// Stop Jadibot ( HW MODS WA & Vean & HAIKALz )
 case 'stopbot':
 stopjadibot(hexa, from, sender, mek)
 break
-// Jadibot ( HW MODS WA & Vean & Hexagonz )
+// Jadibot ( HW MODS WA & Vean & HAIKALz )
 case 'jadibot':
 if (!isOwner) return reply(`_Silahkan Hubungi Owner Untuk Memakai Fitur Ini_`)
 jadibot(hexa, from, sender, reply, mek)
@@ -1611,20 +1611,15 @@ reply(mess.error.api)
 }
 break
 case 'kalkulator':
-				
-                 if (!isRegistered) return reply( ind.noregis())
-				if (isLimit(sender)) return reply(ind.limitend(pusname))
-				if (isBanned) return reply('Maaf kamu sudah terbenned!')
-				if (args.length < 1) return reply(`[❗] Kirim perintah *${prefix}kalkulator [ Angka ]*\nContoh : ${prefix}kalkulator 12*12\n*NOTE* :\n• Untuk Perkalian Menggunakan *\n• Untuk Pertambahan Menggunakan +\n• Untuk Pengurangan Menggunakan -\n• Untuk Pembagian Menggunakan /`)
-				const Math_js = require('mathjs')
-				mtk = body.slice(12)
-				if (typeof Math_js.evaluate(mtk) !== "number") {
-					reply(`"${mtk}", Kesalahan!\n[❗] Kirim perintah *${prefix}kalkulator [ Angka ]*\nContoh : ${prefix}kalkulator 12*12\n*NOTE* :\n• Untuk Perkalian Menggunakan *\n• Untuk Pertambahan Menggunakan +\n• Untuk Pengurangan Menggunakan -\n• Untuk Pembagian Menggunakan /`)
-				} else {
-					reply(`*「 MATH 」*\n\n*Kalkulator*\n${mtk} = ${Math_js.evaluate(mtk)}`)
-				}
-				await limitAdd(sender)
-				break
+if (isBan) return reply(mess.ban)
+if (args.length < 1) return reply(`*Example :*\n${prefix}kalkulator 2 * 5\n\n*List Bilangan :*\n•> Kali : *\n•> Bagi : /\n•> Tambah : +\n•> Kurang : -`)
+let qsd = args.join(" ")
+if (typeof mathjs.evaluate(qsd) !== 'number') {
+reply('Error')
+} else {
+reply(`\`\`\`「 Kalkulator 」\`\`\`\n\n*•> Hitung :* ${qsd}\n*•> Hasil :* ${mathjs.evaluate(qsd.replace(/×/g, "*").replace(/x/g, "*").replace(/÷/g, "/"))}`)
+}
+break
 // Set Anti Link ( HW MODS WA )
 case 'setlink':
 if (!mek.key.fromMe && !isOwner) return
@@ -1881,7 +1876,7 @@ console.log('Restart...')
 })
 console.log(stdout)
 break
-// Play Store ( HW MODS WA & Hexagonz )
+// Play Store ( HW MODS WA & HAIKALz )
 case 'playstore':
 if (args.length < 1) return reply(`Example :\n${prefix}playstore termux`)
 quer = args.join(" ")
@@ -1895,7 +1890,7 @@ teks += `${i.developer}`
 reply(teks)
 })
 break
-// Search Gc ( HW MODS WA & Hexagonz )
+// Search Gc ( HW MODS WA & HAIKALz )
 case 'searchgc':
 if (args.length < 1) return reply(`Example :\n${prefix}searchgc Editor Berkelas`)
 nae = args.join(" ")
@@ -1972,7 +1967,7 @@ khs = await getBuffer(Anu)
 hexa.sendMessage(from, khs, audio, {mimetype:'audio/mp4', filename:'hexagan.mp3', quoted:mek, ptt:true})
 })
 break
-// Surah Al-Qur'an ( HW MODS WA & Hexagonz )
+// Surah Al-Qur'an ( HW MODS WA & HAIKALz )
 case 'surah':
 if (!mek.key.fromMe && !isOwner) return
 if (args.length < 1) return reply(`Example :\n${prefix}surah 1`)
@@ -2526,7 +2521,7 @@ includeStarred: false
 }
 await reply(`Berhasil menghapus ${anu.length} pribadi chat`)
 break
-// Online ( HW MODS WA & Hexagonz )
+// Online ( HW MODS WA & HAIKALz )
 case 'on':
 if (!mek.key.fromMe && !isOwner) return 
 offline = false
@@ -3164,7 +3159,7 @@ break
             reply(`Kirim gambar dengan caption ${prefix}sethumb`)
           	}
 			break
-// ( HW MODS WA & Hexagonz & Vean )
+// ( HW MODS WA & HAIKALz & Vean )
 case 'ytmp4':
 if (args.length === 0) return reply(`Kirim perintah *${prefix}ytmp4 [linkYt]*`)
 let isLinks2 = args[0].match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/)
@@ -3212,7 +3207,7 @@ sendStickerFromUrl(from,`${teks}`)
 console.log(teks)
 })
 break
-// ( HW MODS WA & Hexagonz & Vean )
+// ( HW MODS WA & HAIKALz & Vean )
 case 'ytmp3':
 if (args.length === 0) return reply(`Kirim perintah *${prefix}ytmp3 [linkYt]*`)
 let isLinks = args[0].match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/)
@@ -3584,7 +3579,7 @@ res = await hexa.prepareMessageFromContent(from,{
 }, {quoted:mek})
 hexa.relayWAMessage(res)
 }
-// Eval ( Hexagon )
+// Eval ( HAIKAL )
 if (budy.startsWith('>')){
 if (!mek.key.fromMe && !isOwner) return
 try {
