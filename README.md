@@ -113,6 +113,10 @@
 | TERM |✅|
 | > |✅|
 
+  # DEVELOPER
+* [`INSTAGRAM`](https://www.instagram.com/hikal_857/?hl=id)
+* [`TELEGRAM`](https://t.me/haikal857)
+* [`YOUTUBE`](https://youtube.com/channel/UCa37vxxUI-XULKw_sHb4A5g)
   # MAKASIH LORT
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
 * [`MhankBarBar`](https://github.com/MhankBarBar)
