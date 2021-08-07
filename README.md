@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://cdn.pixabay.com/photo/2021/07/21/14/42/indonesian-6483193_640.jpg" alt="HWMODS2" width="300" />
+<img src="https://ibb.co/JQ3hfHs" alt="HWMODS2" width="300" />
 
 # HW MODS WA
 
@@ -8,7 +8,7 @@
 >
 </div>
 <p align="center">
-  <a href="https://github.com/HaikaltestBot123"><img title="Author" src="https://cdn.pixabay.com/photo/2021/07/21/14/42/indonesian-6483193_640.jpg/badge/Author-HW MODS WA-red.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/HaikaltestBot123"><img title="Author" src="https://ibb.co/JQ3hfHs/badge/Author-HW MODS WA-red.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
   <a href="https://wa.me/6285714170944">OWNER HW-BOT >//< </a>
 </h4>
