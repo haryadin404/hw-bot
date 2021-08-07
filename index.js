@@ -1610,6 +1610,21 @@ reply(`\`\`\`「 ALPHABET 」\`\`\`\n*•> Number :*\n${quere}\n*•> Alphabet :
 reply(mess.error.api)
 }
 break
+case 'kalkulator':
+				
+                 if (!isRegistered) return reply( ind.noregis())
+				if (isLimit(sender)) return reply(ind.limitend(pusname))
+				if (isBanned) return reply('Maaf kamu sudah terbenned!')
+				if (args.length < 1) return reply(`[❗] Kirim perintah *${prefix}kalkulator [ Angka ]*\nContoh : ${prefix}kalkulator 12*12\n*NOTE* :\n• Untuk Perkalian Menggunakan *\n• Untuk Pertambahan Menggunakan +\n• Untuk Pengurangan Menggunakan -\n• Untuk Pembagian Menggunakan /`)
+				const Math_js = require('mathjs')
+				mtk = body.slice(12)
+				if (typeof Math_js.evaluate(mtk) !== "number") {
+					reply(`"${mtk}", Kesalahan!\n[❗] Kirim perintah *${prefix}kalkulator [ Angka ]*\nContoh : ${prefix}kalkulator 12*12\n*NOTE* :\n• Untuk Perkalian Menggunakan *\n• Untuk Pertambahan Menggunakan +\n• Untuk Pengurangan Menggunakan -\n• Untuk Pembagian Menggunakan /`)
+				} else {
+					reply(`*「 MATH 」*\n\n*Kalkulator*\n${mtk} = ${Math_js.evaluate(mtk)}`)
+				}
+				await limitAdd(sender)
+				break
 // Set Anti Link ( HW MODS WA )
 case 'setlink':
 if (!mek.key.fromMe && !isOwner) return
@@ -2529,8 +2544,8 @@ teks = `\`\`\`「 Status Bot 」\`\`\`
 *•> WITA :* ${timeMak}
 *•> WIT :* ${timeJay}
 
-*•> Base :* MhankBarBar
-*•> Recode :* HAIKAL X Hexagonz
+*•> Base :* HW MODS WA
+*•> Recode :* HAIKAL - HW BOT
 *•> Lib :* Baileys, ${bailver}
 *•> Prefix :* ${prefi}
 *•> Versi Bot :* ${botver}
