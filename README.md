@@ -1,31 +1,31 @@
 <div align="center">
-<img src="https://i.ibb.co/zh4DWw9/icon.jpg" alt="SELF-HXs" width="300" />
+<img src="https://cdn.pixabay.com/photo/2021/07/21/14/42/indonesian-6483193_640.jpg" alt="HWMODS2" width="300" />
 
-# MyMans APIs
+# HW MODS WA
 
 >
 >
 >
 </div>
 <p align="center">
-  <a href="https://github.com/ITSMAZGH"><img title="Author" src="https://img.shields.io/badge/Author-ITSMAZGH-red.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/HaikaltestBot123"><img title="Author" src="https://cdn.pixabay.com/photo/2021/07/21/14/42/indonesian-6483193_640.jpg/badge/Author-HW MODS WA-red.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
-  <a href="https://wa.me/6288224859350">OWNER MANS >//< </a>
+  <a href="https://wa.me/6285714170944">OWNER HW-BOT >//< </a>
 </h4>
 </p>
 
 ## CARA INSTALL DI TERMUX
 ```bash
 > pkg install nodejs && pkg install git
-> git clone https://github.com/ITSMAZGH/SELF-HXs
-> cd SELF-HXs
+> git clone https://github.com/HaikaltestBot123/HWMODS2
+> cd HWMODS2
 > bash install.sh
 > npm start/node main.js
 ```
 ## CARA INSTALL DI LAPTOP
 ```bash
-> git clone https://github.com/ITSMAZGH/SELF-HXs
-> cd SELF-HXs
+> git clone https://github.com/HaikaltestBot123/HWMODS2
+> cd HWMODSWA
 > npm i
 > npm start/node main.js
 ```
