@@ -1610,16 +1610,6 @@ reply(`\`\`\`「 ALPHABET 」\`\`\`\n*•> Number :*\n${quere}\n*•> Alphabet :
 reply(mess.error.api)
 }
 break
-case 'kalkulator':
-if (isBan) return reply(mess.ban)
-if (args.length < 1) return reply(`*Example :*\n${prefix}kalkulator 2 * 5\n\n*List Bilangan :*\n•> Kali : *\n•> Bagi : /\n•> Tambah : +\n•> Kurang : -`)
-let qsd = args.join(" ")
-if (typeof mathjs.evaluate(qsd) !== 'number') {
-reply('Error')
-} else {
-reply(`\`\`\`「 Kalkulator 」\`\`\`\n\n*•> Hitung :* ${qsd}\n*•> Hasil :* ${mathjs.evaluate(qsd.replace(/×/g, "*").replace(/x/g, "*").replace(/÷/g, "/"))}`)
-}
-break
 // Set Anti Link ( HW MODS WA )
 case 'setlink':
 if (!mek.key.fromMe && !isOwner) return
