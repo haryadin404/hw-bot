@@ -118,7 +118,7 @@ pushnem = hexa.contacts[num] != undefined ? hexa.contacts[num].notify = undefine
 ┏━━⊱
 ┣❏ BABAY BEBAN GROUP
 ┗━━⊱
-SEMOGA TENANG DI ALAM SANA 👋🏻🤧
+SEMOGA TENANG DI ALAM SANA 👋🏻
 ┏━━⊱
 ┣❏SUBSCRIBE : https://youtube.com/channel/UCa37vxxUI-XULKw_sHb4A5g
 ┗━━⊱
